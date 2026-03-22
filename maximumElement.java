@@ -4,7 +4,7 @@ public class maximumElement {
         int max = arr[0];
         for(int i : arr){
             if (i > max){
-                max = arr[i];
+                max = i;
             }
         }
         System.out.println(max);}
